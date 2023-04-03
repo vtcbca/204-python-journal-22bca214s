@@ -1,8 +1,0 @@
-script 8
-list=[5,10,15,20,50,25,20]
-value_for_replace=int(input("enter value you want to replace:"))
-unwanted_value=int(input("enter value from which you want to replace:"))
-for i in range(len(list)):
-    if list[i]==value_for_replace:
-        list[i]=unwanted_value
-print(list)
