@@ -1,0 +1,11 @@
+script 1
+def strpal(a):
+    a=input('enter any string:')
+    b=a[::-1]
+    if(a==b):
+        print('palindrom')
+    else:
+        print('not palinddddrom')
+strpal(a)
+
+
