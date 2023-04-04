@@ -1,0 +1,9 @@
+script 10
+def consicutive_no(list):
+    for i in range(len(list)-2):
+        if list[i]==list[i+1]==list[i+2]:
+            return list[i]
+        #return none
+list=[4,5,5,5,3.8]
+comn_no=consicutive_no(list)
+print(comn_no)
